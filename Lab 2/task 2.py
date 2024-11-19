@@ -11,4 +11,4 @@ for i in range(months):
     costs += spend
     spend *= (increase+1)
 k = costs - earnings
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(k))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(k) + 1)
